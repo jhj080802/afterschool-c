@@ -51,7 +51,7 @@
 //   float m, t;
 //   printf("거리 입력 : ");
 //   scanf("%d", &m);
-//   printf("소요 시간 입력 : ");
+//   printf("\n소요 시간 입력 : ");
 //   scanf("%d", &t);
 
 // }

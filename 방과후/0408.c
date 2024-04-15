@@ -1,5 +1,6 @@
-#include<stdio.h>
-int main(void){
+// #include<stdio.h>
+// int main(void){
+  
 //1번
 //   float weight,hight;
 //   printf("체중을 입력하세요. : ");
@@ -79,5 +80,5 @@ int main(void){
   // printf("\n(A+B)%%C = %d\n", (A+B)%C);
   // printf("((A%%C)+(B%%C))%%C = %d",((A%C)+(B%C))%C);
   
-  return 0;
-}
+//   return 0;
+// }

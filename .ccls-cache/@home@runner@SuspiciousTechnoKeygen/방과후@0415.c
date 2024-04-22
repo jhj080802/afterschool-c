@@ -1,5 +1,5 @@
-#include<stdio.h>
-int main(void){
+// #include<stdio.h>
+// int main(void){
   //1번
   // int a, b;
   // printf("분자와 분모를 입력하시오 : ");
@@ -11,45 +11,44 @@ int main(void){
   // }
 
   //2번
-  // int a, b;
-  // printf("두 개의 정수를 입력하세요 : ");
-  // scanf("%d %d", &a, &b);
-  // printf("두 수의 합은 %d입니다.\n", a+b);
-  // if(a>b)
-  //   printf("두수의 차는 %d입니다. ", a-b);
-  // else
-  //   printf("두수의 차는 %d입니다. ", (a-b)*-1);
+    // int a, b;
+    // printf("두 개의 정수를 입력하세요 : ");
+    // scanf("%d %d", &a, &b);
+    // printf("두 수의 합은 %d입니다.\n", a+b);
+    // if(a>b)
+    //   printf("두수의 차는 %d입니다. ", a-b);
+    // else
+    //   printf("두수의 차는 %d입니다. ", (a-b)*-1);
 
   //3번
-  // int a;
-  // printf("요일을 정수로 입력하시오 : ");
-  // scanf("%d", &a);
-  // if(a==5||a==6)
-  //   printf("주말입니다. ");
-  // else
-  //   printf("주중입니다. ");
+    // int a;
+    // printf("요일을 정수로 입력하시오 : ");
+    // scanf("%d", &a);
+    // if(a==5||a==6)
+    //   printf("주말입니다. ");
+    // else
+    //   printf("주중입니다. ");
 
   //4번
-  // char a;
-  // printf("문자를 입력하시오 : ");
-  // a = getchar();
-  // //scanf("%c", &a); //getchar랑 같음
-
-  // if(a >='A' && a<='Z'||a >= 'a'&& a <= 'z')
-  //   printf("알파벳입니다. ");
-  // else if('!'<=a&&a<='/')
-  //   printf("특수문자입니다. ");
-  // else
-  //   printf("숫자입니다. ");
-
+    // char a;
+    // printf("문자를 입력하시오 : ");
+    // a = getchar();
+  
+    // if(a >='A' && a<='Z'||a >= 'a'&& a <= 'z')
+    //   printf("알파벳입니다. ");
+    // else if('!'<=a&&a<='/')
+    //   printf("특수문자입니다. ");
+    // else
+    //   printf("숫자입니다. ");
+  
   //5번
-  // char a;
-  // printf("문자를 입력하시오 : ");
-  // scanf("%c", &a);
-  // if('A'<=a && a<='Z')
-  //   printf("대문자입니다. ");
-  // else if(a>='a'&&a<='z')
-  //   printf("소문자입니다. ");
+    // char a;
+    // printf("문자를 입력하시오 : ");
+    // scanf("%c", &a);
+    // if('A'<=a && a<='Z')
+    //   printf("대문자입니다. ");
+    // else if(a>='a'&&a<='z')
+    //   printf("소문자입니다. ");
 
   //6번
   // char a;
@@ -148,4 +147,4 @@ int main(void){
   //   printf("상금은 1000원입니다. ");
   // else
   //   printf("상금은 없습니다. ");
-}
+//}

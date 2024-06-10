@@ -60,3 +60,49 @@
 //   scanf("%d %d", &x2, &y2);
 //   printf("두 점 사이의 거리는 %f입니다. ", sqrt(pow(x1-x2,2)+pow(y1-y2,2)));
 // }
+
+//6
+// #include<math.h>
+// #include<stdio.h>
+// void quad_eqn(int a, int b, int c);
+
+// int main(void){
+//   int a,b,c;
+  
+//   printf("2차 방정식의 개수를 입력하시오 : \n");
+//   printf("a : ");
+//   scanf(" %d", &a);
+//   printf("b : ");
+//   scanf(" %d", &b);
+//   printf("c : ");
+//   scanf(" %d", &c);
+//   quad_eqn(a, b, c);
+
+// }
+
+// void quad_eqn(int a, int b, int c){
+//   if(b*b-4*a*c>0){
+//     printf("첫 번째 근 = %f\n", (-b+sqrt(b*b-4*a*c))/2*a);
+//     printf("두 번째 근 = %f", (-b-sqrt(b*b-4*a*c))/2*a);
+//   }
+//   else printf("근이 없습니다. ");
+// }
+
+//7
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<time.h>
+// int main(){
+//   int num, random;
+//   srand(time(NULL));
+//   while(1){
+//     random = rand()%2;
+//     printf("앞(0) 또는 뒤(1)를 선택하세요(종료는 -1) : ");
+//     scanf("%d", &num);
+//     if(num==random){
+//       printf("사용자가 이겼습니다. \n");
+//     } 
+//     else if(num==-1) break;
+//     else printf("컴퓨터가 이겼습니다. \n");
+//   }
+// }

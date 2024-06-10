@@ -106,3 +106,54 @@
 //     else printf("컴퓨터가 이겼습니다. \n");
 //   }
 // }
+
+//8
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<time.h>
+// int main(){
+//   int Usum=0,Csum=0;
+//   int user[3]={}, computer[3]={};
+//   for(int i=0; i<3; i++){
+//     user[i] =  rand()%6+1;
+//     computer[i] = rand()%6+1;
+//   }
+//   Usum=user[0]+user[1]+user[2];
+//   Csum=computer[0]+computer[1]+computer[2];
+  
+//   printf("사용자 주사위 = (%d, %d, %d) = %d\n",user[0], user[1], user[2], Usum);
+//   printf("컴퓨터 주사위 = (%d, %d, %d) = %d\n", computer[0], computer[1], computer[2], Csum);
+//   if(Usum>Csum)
+//     printf("you win");
+//   else if(Usum==Csum)
+//     printf("draw");
+//   else printf( "computer win");
+// }
+
+//9
+// #include<stdio.h>
+// int main(void){
+//   int num1, num2;
+//   char op;
+//   while(1){
+//     printf("연산을 입력하세요 (종료 : 0) : ");
+//     scanf("%d %c %d", &num1, &op, &num2);
+
+//     switch(op){
+//       case '+':
+//         printf("%d + %d = %d\n", num1, num2, num1+num2);
+//         break;
+//       case '-':
+//         printf("%d - %d = %d\n", num1, num2, num1-num2);
+//         break;
+//       case '*':
+//         printf("%d * %d = %d\n", num1, num2, num1*num2);
+//         break;
+//       case '/':
+//           if(num2==0)
+//             printf("0으로 나눌 수 없습니다. \n");
+//           else 
+//             printf(" %d / %d = %d\n", num1, num2, num1/num2);
+//     }
+//   }
+// }
